@@ -1,8 +1,19 @@
 .table-game {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     background-color: blueviolet;
     width: 200px;
     height: 200px;
     gap: 5px;
+}
+
+.backgroud-table {
+    background-color: gray;
+}
+
+.green-circle {
+    border-radius: 50%;
+    background-color: green;
+    width: 100%;
+    height: 100%;
 }
