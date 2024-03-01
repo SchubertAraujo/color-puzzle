@@ -1,0 +1,33 @@
+.menu-top {
+  display: flex;
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(104, 105, 107, 0.377);
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  padding-left: 30px;
+  position: relative;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.menu-style {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  position: relative;
+}
+
+
+
+
+
