@@ -43,6 +43,7 @@ module.exports = {
     'react/prop-types': 'off',
     'prettier/prettier': ['error', { endOfLine: 'auto' }],
     'react-hooks/rules-of-hooks': 'off',
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
   settings: {
     'import/resolver': {

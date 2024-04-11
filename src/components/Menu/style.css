@@ -39,5 +39,10 @@ li {
   font-size: 18px;
 }
 
+a, a:visited, a:hover, a:active {
+  color: white;
+  text-decoration: none;
+}
+
 
 

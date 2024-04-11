@@ -1,0 +1,11 @@
+.proposal {
+  display: flex;
+  align-items: center;
+}
+
+.paragraphs {
+  width: 400px;
+}
+span {
+  color: rgb(36, 233, 36);
+}

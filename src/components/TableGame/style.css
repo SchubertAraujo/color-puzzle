@@ -1,13 +1,12 @@
 .table-game {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    background-color: blueviolet;
     width: 200px;
     height: 200px;
     gap: 5px;
 }
 
 .backgroud-table {
-    background-color: gray;
+    background-color: rgba(146, 146, 146, 0.658);
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import { Link } from 'react-router-dom';
 import imgLogo from '../../imgs/extension.png';
 
 export function Menu(): React.JSX.Element {
@@ -11,9 +12,13 @@ export function Menu(): React.JSX.Element {
       </div>
       <nav>
         <ul className="menu-style">
-          <li>PROPOSTA</li>
+          <Link to="/">
+            <li>PROPOSTA</li>
+          </Link>
           <li>MECANICA</li>
-          <li>JOGAR</li>
+          <Link to="/Game">
+            <li>JOGAR</li>
+          </Link>
         </ul>
       </nav>
     </div>
